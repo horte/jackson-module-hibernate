@@ -1,3 +1,11 @@
+
+See branch hibernate-4.x for support with Hibernate 4
+
+
+
+
+
+
 Project to build Jackson (http://jackson.codehaus.org) module (jar) to support JSON serialization and deserialization of Hibernate (http://hibernate.org) specific datatypes and properties; especially lazy-loading aspects.
 
 ## Status
