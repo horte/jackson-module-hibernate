@@ -2,12 +2,13 @@ package com.fasterxml.jackson.module.hibernate;
 
 import java.io.IOException;
 
-import org.hibernate.collection.PersistentCollection;
+//import org.hibernate.collection.PersistentCollection;
 
 import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.type.JavaType;
+import org.hibernate.collection.spi.PersistentCollection;
 
 /**
  * Wrapper serializer used to handle aspects of lazy loading that can be used

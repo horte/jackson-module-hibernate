@@ -2,8 +2,10 @@ package com.fasterxml.jackson.module.hibernate;
 
 import java.util.*;
 
-import org.hibernate.collection.PersistentCollection;
-import org.hibernate.collection.PersistentMap;
+//import org.hibernate.collection.PersistentCollection;
+//import org.hibernate.collection.PersistentMap;
+import org.hibernate.collection.internal.PersistentMap;
+import org.hibernate.collection.spi.PersistentCollection;
 import org.hibernate.proxy.HibernateProxy;
 
 import org.codehaus.jackson.map.*;
